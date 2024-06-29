@@ -1,0 +1,22 @@
+:root {
+    --black-color: #000;
+    --white-color: #fff;
+    --text-color: #666666;
+    --bold-text-color: #333333;
+    --primary-color: #010A1B;
+    --button-color: #EB4335;
+}
+
+* {
+    /* inherit là kế thừa, tức các thẻ sẽ kế thừa box-sizing: border-box của CSS html bên dưới */
+    box-sizing: inherit;
+}
+
+html {
+    /* Thông thường trên các trình duyệt thì mặc định font-size là 16px. Ở đây để 62.5% tức đang set fon-size: 10px */
+    font-size: 62.5%;
+    /* Khi set font-size: 10px thì 1rem = 10px -> 0.1rem = 1px -> 1.6rem = 16px */
+    line-height: 1.6rem;
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+}
